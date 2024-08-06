@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    min-width: 400px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    
+}
+
+.nombre, .contacto, .habilidades, .estudios{
+    grid-column: 1/2;
+    max-width: 400px;
+    min-width: 200px;
+    padding: 20px;
+    background-color: rgb(0, 110, 255);
+    color: beige;
+}
+
+.imagen, .datos, .experiencia{
+    padding: 20px;
+    margin: 0;
+    grid-column: 2/3;
+    max-width: 400px;
+    min-width: 200px;
+    text-align: left;
+}
+
+.imagen img{
+    grid-row: 1;
+    width:100%;
+    height:auto;
+    max-width: 200px;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 0, 0)
+}
