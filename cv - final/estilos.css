@@ -19,6 +19,7 @@ body {
 }
 
 .nombre{
+    font-size: small;
     text-align: center;
     padding-bottom: 30px;
 }
@@ -37,7 +38,9 @@ body {
 }
 
 .imagen {
-    text-align: center;  
+    text-align: center; 
+    margin: 0; 
+    padding: 0;
 }
 
 .imagen img {
@@ -48,12 +51,17 @@ body {
 }
 
 .contacto, .datos, .habilidades, .experiencia, .estudios {
-    margin-bottom: 20px;
+    
+    padding-bottom: 10PX;
 }
 
 h2 {
     border-bottom: 2px solid #000000;
-    padding-bottom: 5px;
+    font-size: larger;
+}
+
+h3{
+    border-bottom: 2px solid #ffffff;
 }
 
 p, li {
@@ -72,7 +80,7 @@ li {
 
 li:before {
     content: "• ";
-    color: #333;
+    color: #000000;
     padding-right: 5px;
 }
 
