@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0, 60, 255, 0.836);
+}
+
+.nombre{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.barra {
+    grid-column: 1;
+    background-color: rgb(29, 0, 133);
+    padding: 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.principal {
+    grid-column: 2;
+    padding: 20px;
+}
+
+.imagen {
+    text-align: center;  
+}
+
+.imagen img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.836);
+}
+
+.contacto, .datos, .habilidades, .experiencia, .estudios {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+}
+
+p, li {
+    margin: 5px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+li:before {
+    content: "• ";
+    color: #333;
+    padding-right: 5px;
+}
+
+.habilidades, .experiencia, .estudios {
+    margin-bottom: 20px;
+}
+
+.habilidades {
+    grid-row: 2;
+}
+
+.experiencia {
+    grid-row: 3;
+}
+
+.estudios {
+    grid-row: 4;
+}
